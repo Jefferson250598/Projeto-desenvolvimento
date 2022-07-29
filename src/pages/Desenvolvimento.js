@@ -17,10 +17,7 @@ const GlobalStyle = createGlobalStyle`
 }
   
   `
-// const Container = styled.div`
-// background-image: url("https://rioonwatch.org.br/wp-content/uploads/2021/03/Jardim-Catarina.-Foto-da-pagina-no-Facebook-do-CCJC.jpg");
 
-// `
 
 const Inicio = styled.div`
 background-color: blue;
@@ -145,6 +142,7 @@ export default function App() {
                 </Paragrafo>
             </Inicio>
             <Violencia>
+               
                 <Titulo>Violência</Titulo>
                 <Paragrafo>O bairro mais populoso de São Gonçalo, na região Metropolitana do Rio de Janeiro, é também um dos mais violentos. Jardim Catarina virou um território sem lei. No meio da guerra entre facções rivais, moradores ficam reféns do medo.</Paragrafo><br></br>
                 <Paragrafo>Assim o bairro tem um índice muito baixo de investimentos, entendemos que a segurança é um papel muito importante, para que todos moradores possam ir e vim, constante.</Paragrafo><br></br>
@@ -193,7 +191,11 @@ export default function App() {
         <Rodape>
             <p>Faça parte desse projeto entre em contato com o whatsapp (21) 968645662 e venha ser mais um a começar em min.</p>
         </Rodape>
-        
+       
+
         </>
+
+
+
     );
 }
